@@ -7,7 +7,7 @@ Resumo dos principais pedidos feitos aos modelos e do que a equipe aceitou, corr
 | Ferramenta | Modelo | Uso |
 |---|---|---|
 | GitHub Copilot Chat (VS Code, modo agente) | Claude Sonnet 5.5 | Planejamento, estrutura do projeto, código, testes e documentação |
-| Google Gemini (Web) | Gemini | Apoio na estruturação dos Requisitos 1 (State) e 2 (Strategy), roteiros de arguição e atualização de documentação |
+| Google Gemini (Web) | Gemini | Apoio na estruturação e geração de código de apoio dos Requisitos 1 (State), 2 (Strategy) e 3 (Adapter), roteiros de arguição e atualização de documentação |
 
 ## Registro de pedidos
 
@@ -21,6 +21,7 @@ Decisão: **Aceito** (usado como veio), **Corrigido** (aceito com ajustes da equ
 | 4 | 2026-11-14 | Implementar as classes, enums e testes do Requisito 1 (State) | `SituacaoLivro.java`, `Livro.java`, `EstadoLivro.java`, 7 classes concretas de estado e `R01StateTest.java` | Aceito | Código revisado e integrado ao projeto pela equipe |
 | 5 | 2026-11-15 | Sugerir estrutura e exemplos de implementação para o Requisito 2 (Strategy — políticas de multa) | Esqueleto da interface `PoliticaMulta`, implementações de cálculo, ajustes em `ServicoMultas` e casos de teste em `R02StrategyTest.java` | Corrigido | A equipe adaptou o código aos pacotes do projeto, ajustou a imutabilidade da entidade `Multa` e validou os testes unitários |
 | 6 | 2026-11-15 | Revisar perguntas de arguição e atualizar o registro de uso de LLMs | Resumo técnico do Requisito 2 e atualização do `REGISTRO_LLM.md` | Aceito | Material utilizado pela equipe para conferência com os diagramas e preparação da defesa oral |
+| 7 | 2026-11-15 | Apoiar na geração dos adaptadores bancários, esclarecer dúvidas sobre o padrão Adapter e gerar documentação do Requisito 3 | Sugestões de implementação para `AdaptadorBancoA.java`, `AdaptadorBancoB.java`, integração com `ServicoMultas.java`, resumo técnico (`requisito_03_adapter.md`) e atualização do `REGISTRO_LLM.md` | Corrigido | A equipe revisou e adaptou os trechos gerados para os adaptadores e o `ServicoMultas`, integrou aos testes em `R03AdapterTest.java` e validou o fluxo para a arguição |
 
 ## Regras da equipe
 
