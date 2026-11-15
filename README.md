@@ -58,4 +58,4 @@ Outros diretórios: `src/test` (um teste por requisito, `R01` a `R10`), `src/mai
 |---|---|---|
 | GitHub Copilot Chat (VS Code) | Claude Sonnet 5.5 | Estrutura do projeto (`pom.xml`, pacotes, `Main`, README) e arquivos vazios de todas as classes e testes previstos |
 
-Os pedidos feitos ao modelo e as decisões da equipe estão em [REGISTRO_LLM.md](REGISTRO_LLM.md).
+Os pedidos feitos ao modelo e as decisões da equipe estão em [REGISTRO_LLM.md](docs/REGISTRO_LLM.md).
